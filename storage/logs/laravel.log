@@ -1,0 +1,27 @@
+[2021-03-19 00:40:36] local.ERROR: Not enough arguments (missing: "type"). {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Not enough arguments (missing: \"type\"). at C:\\laragon\\www\\Laravel6.18\\vendor\\symfony\\console\\Input\\Input.php:76)
+[stacktrace]
+#0 C:\\laragon\\www\\Laravel6.18\\vendor\\symfony\\console\\Command\\Command.php(250): Symfony\\Component\\Console\\Input\\Input->validate()
+#1 C:\\laragon\\www\\Laravel6.18\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#2 C:\\laragon\\www\\Laravel6.18\\vendor\\symfony\\console\\Application.php(1009): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\Laravel6.18\\vendor\\symfony\\console\\Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Laravel\\Ui\\UiCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\Laravel6.18\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\laragon\\www\\Laravel6.18\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\laragon\\www\\Laravel6.18\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\laragon\\www\\Laravel6.18\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2021-03-19 00:42:34] local.ERROR: Command "server.php" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"server.php\" is not defined. at C:\\laragon\\www\\Laravel6.18\\vendor\\symfony\\console\\Application.php:676)
+[stacktrace]
+#0 C:\\laragon\\www\\Laravel6.18\\vendor\\symfony\\console\\Application.php(237): Symfony\\Component\\Console\\Application->find('server.php')
+#1 C:\\laragon\\www\\Laravel6.18\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\laragon\\www\\Laravel6.18\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\Laravel6.18\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\Laravel6.18\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-03-19 00:49:48] local.ERROR: No Database connection yet in VoyagerServiceProvider loadAuth()  
+[2021-03-19 00:50:26] local.ERROR: No Database connection yet in VoyagerServiceProvider loadAuth()  
+[2021-03-19 00:51:01] local.ERROR: No Database connection yet in VoyagerServiceProvider loadAuth()  
+[2021-03-19 00:51:05] local.ERROR: No Database connection yet in VoyagerServiceProvider loadAuth()  
+[2021-03-19 00:51:07] local.ERROR: No Database connection yet in VoyagerServiceProvider loadAuth()  
+[2021-03-19 00:51:09] local.ERROR: No Database connection yet in VoyagerServiceProvider loadAuth()  
